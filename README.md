@@ -8,6 +8,7 @@ curl -sSL ${URL} | bash
 ```
 
 ## Hızlı güncelleme yazısı
-'''bash
+```bash
 echo "alias guncelle='sudo apt update -y && sudo apt upgrade -y'" >> ~/.bashrc
-'''
+source ~/.bashrc
+```
