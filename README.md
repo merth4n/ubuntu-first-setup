@@ -11,4 +11,5 @@ curl -sSL ${URL} | bash
 
 ```bash
 echo "$(whoami) ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+source ~/.bashrc
 ```
